@@ -211,3 +211,19 @@ p {
         font-size: 1.1rem;
     }
 }
+
+.centered-cms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cms-image {
+    height: 10cm;
+    width: auto;
+}
+
+.carousel {
+    max-width: 720px; 
+    margin: 0 auto;
+}
