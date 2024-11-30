@@ -39,6 +39,30 @@ button:active {
     transform: translateY(1px);
 }
 
+@media (max-width: 768px) {
+    .button {
+        padding: 12px 25px;
+        font-size: 4vw;
+        /* Adjust font size dynamically for medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .button {
+        padding: 10px 20px;
+        font-size: 5vw;
+        /* Larger font size for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .button {
+        padding: 8px 16px;
+        font-size: 6vw;
+        /* Even larger font size for very small screens */
+    }
+}
+
 /* Container */
 .container {
     display: flex;
@@ -224,6 +248,21 @@ p {
 }
 
 .carousel {
-    max-width: 720px; 
+    max-width: 720px;
     margin: 0 auto;
+}
+
+.whatsapp-button {
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
 }
